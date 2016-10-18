@@ -1,0 +1,123 @@
+/**
+ * Created by EF-文武帝 on 2016/5/13/0013.
+ */
+$(document).ready(function(){
+    $("#href1").hover(
+       function(){
+           $("#w1").css("color","#f2345a");
+           $("#pic1").attr("src","../pictures/Pictures-1/爱心红.png")
+       },
+       function(){
+           $("#w1").css("color","#ffffff");
+           $("#pic1").attr("src","../pictures/Pictures-1/爱心.png")
+       }
+   )
+});
+$(document).ready(function(){
+    $("#href2").hover(
+        function(){
+            $("#w2").css("color","#f2345a");
+            $("#pic2").attr("src","../pictures/Pictures-1/灯泡红.png")
+        },
+        function(){
+            $("#w2").css("color","#ffffff");
+            $("#pic2").attr("src","../pictures/Pictures-1/灯泡.png")
+        }
+    )
+});
+$(document).ready(function(){
+    $("#href3").hover(
+        function(){
+            $("#w3").css("color","#f2345a");
+            $("#pic3").attr("src","../pictures/Pictures-1/电视红.png")
+        },
+        function(){
+            $("#w3").css("color","#ffffff");
+            $("#pic3").attr("src","../pictures/Pictures-1/电视.png")
+        }
+    )
+});
+$(document).ready(function(){
+    $("#p1").hover(
+        function(){
+            $("#p11").css("color","#FFFFFF").animate({top:'5px'},"fast");
+            $("#pmp").attr("src","../Pictures/Pictures-3/pm2.png").animate({left:'-5px'},"fast");
+            $("#p1").css("background","#5D2171");
+        },
+        function(){
+            $("#p11").css("color","#000000").animate({top:'0px'},"fast");
+            $("#pmp").attr("src","../Pictures/Pictures-3/pm.png").animate({left:'0px'},"fast");
+            $("#p1").css("background","none")
+        }
+    )
+});
+$(document).ready(function(){
+    $("#p2").hover(
+        function(){
+            $("#p21").css("color","#FFFFFF").animate({top:'5px'},"fast");
+            $("#uip").attr("src","../Pictures/Pictures-3/UI2.png").animate({left:'-5px'},"fast");
+            $("#p2").css("background","#5D2171")
+        },
+        function(){
+            $("#p21").css("color","#000000").animate({top:'0px'},"fast");
+            $("#uip").attr("src","../Pictures/Pictures-3/UI.png").animate({left:'0px'},"fast");
+            $("#p2").css("background","none")
+        }
+    )
+});
+$(document).ready(function(){
+    $("#p3").hover(
+        function(){
+            $("#p31").css("color","#FFFFFF").animate({top:'5px'},"fast");
+            $("#webp").attr("src","../Pictures/Pictures-3/web1.png").animate({left:'-5px'},"fast");
+            $("#p3").css("background","#5D2171")
+        },
+        function(){
+            $("#p31").css("color","#000000").animate({top:'0px'},"fast");
+            $("#webp").attr("src","../Pictures/Pictures-3/web.png").animate({left:'0px'},"fast");
+            $("#p3").css("background","none")
+        }
+    )
+});
+$(document).ready(function(){
+    $("#p4").hover(
+        function(){
+            $("#p41").css("color","#FFFFFF").animate({top:'5px'},"fast");
+            $("#ipp").attr("src","../Pictures/Pictures-3/ip2.png").animate({left:'-5px'},"fast");
+            $("#p4").css("background","#5D2171")
+        },
+        function(){
+            $("#p41").css("color","#000000").animate({top:'0px'},"fast");
+            $("#ipp").attr("src","../Pictures/Pictures-3/ip.png").animate({left:'0px'},"fast");
+            $("#p4").css("background","none")
+        }
+    )
+});
+$(document).ready(function(){
+    $("#p5").hover(
+        function(){
+            $("#p51").css("color","#FFFFFF").animate({top:'5px'},"fast");
+            $("#andp").attr("src","../Pictures/Pictures-3/ad2.png").animate({left:'-5px'},"fast");
+            $("#p5").css("background","#5D2171")
+        },
+        function(){
+            $("#p51").css("color","#000000").animate({top:'0px'},"fast");
+            $("#andp").attr("src","../Pictures/Pictures-3/ad.png").animate({left:'0px'},"fast");
+            $("#p5").css("background","none")
+        }
+    )
+});
+$(document).ready(function(){
+    $("#p6").hover(
+        function(){
+            $("#p61").css("color","#FFFFFF").animate({top:'5px'},"fast");
+            $("#wpp").attr("src","../Pictures/Pictures-3/wp2.png").animate({left:'-5px'},"fast");
+            $("#p6").css("background","#5D2171")
+        },
+        function(){
+            $("#p61").css("color","#000000").animate({top:'0px'},"fast");
+            $("#wpp").attr("src","../Pictures/Pictures-3/wp.png").animate({left:'0px'},"fast");
+            $("#p6").css("background","none")
+        }
+    )
+});

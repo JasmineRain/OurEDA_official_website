@@ -1,0 +1,319 @@
+body{
+    margin: 0 auto;
+    width:100%;
+}
+.nav-wrapper{
+    background:linear-gradient(#393031,#6e676f);
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    top:0;
+    min-width: 1350px;
+    z-index: 999;
+}
+.logo{
+    float: left;
+    width:20%;
+}
+.logo1{
+    width:238px;
+    height:48px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.nav{
+    height: 100%;
+    overflow: hidden;
+    float: left;
+    width: 60%;
+}
+.nav-mid{
+    height: 100%;
+    margin:0 80px;
+    padding: 0;
+}
+.navlogo{
+    list-style: none;
+    display: inline-block;
+    margin:8px -20px 8px 10px;
+    padding: 0 20px;
+    height: 100%;
+}
+.href{
+    display: block;
+    overflow: hidden;
+}
+.picture{
+    float: left;
+}
+.word{
+    float: left;
+    padding:15px 10px;
+    font-size: 24px;
+    color:#FFFFFF;
+}
+.line{
+    width: 100%;
+    height: 8px;
+    background-color: #f2345a;
+    margin:0;
+    border:none;
+}
+.connect{
+    width: 20%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    top:8px;
+    left: 20px;
+}
+.word-c{
+    color:#f2345a;
+    float: left;
+    padding:20px 10px;
+    font-size: 24px;
+}
+.content{
+    width: 100%;
+    min-width: 1350px;
+    height: 800px;
+    background:url("../Pictures/Pictures-1/main_background.jpg");
+    background-size:100% 100%;
+}
+.fill{
+    height: 88px;
+}
+.mainlogo{
+    width:456px;
+    height: 212px;
+    background: url("../Pictures/Pictures-1/main_logo.png");
+    margin:0 auto;
+}
+.touch{
+    width: 287px;
+    height: 69px;
+    margin:70px auto;
+}
+.touch-a{
+    overflow: hidden;
+    display: block;
+}
+.about{
+    width: 100%;
+    height: 450px;
+    min-width: 1350px;
+    background: url("../Pictures/Pictures-2/关于我们底板.png");
+}
+.introduce{
+    margin:0 auto;
+    width: 1200px;
+    height: 339px;
+}
+.left{
+    width: 735px;
+    height: 339px;
+    background: url("../Pictures/Pictures-2/边框左.png");
+    float: left;
+}
+.right{
+    width: 330px;
+    height: 339px;
+    background: url("../Pictures/Pictures-2/边框右.png");
+    float: left;
+    margin-left: 70px;
+}
+.title{
+    margin-top: 20px;
+    color: #FFFFFF;
+    font-size:22px;
+    position: relative;
+    left: 30px;
+}
+.title2{
+    margin-top: 20px;
+     color: #FFFFFF;
+     font-size:22px;
+     position: relative;
+     left: 30px;
+     top:7px
+}
+.word1{
+    font-size: 19px;
+}
+.parts{
+    width: 100%;
+    height: 551px;
+    background: url("../Pictures/Pictures-3/2nd_background.jpg");
+    min-width: 1350px;
+    position: relative;
+    z-index: 1;
+}
+.top{
+    margin:0 auto;
+    height: 270px;
+    overflow: hidden;
+}
+.PM{
+    margin-top: 10px;
+    width: 25%;
+    height: 100%;
+    float: left;
+}
+.PM-p{
+
+}
+.pic-pm{
+    display: block;
+    margin: 0 auto;
+    position: relative;
+}
+.PM-w{
+    margin: 10px auto;
+    text-align: center;
+}
+.partlogo{
+    width: 50%;
+    height: 100%;
+    float: left;
+    margin-top: 20px;
+}
+.pic-partlogo{
+    display: block;
+    margin: 0 auto;
+}
+.bottom{
+    margin:0 auto;
+    height: 271px;
+    overflow: hidden;
+}
+.sonparts{
+    width: 25%;
+    height: 100%;
+    float: left;
+}
+.pic-son{
+    display: block;
+    margin: 0 auto;
+}
+.son-w{
+    margin: 10px auto;
+    text-align: center;
+}
+.son-p{
+    margin-top: 10px;
+}
+.divide{
+    width: 100%;
+    height: 450px;
+    min-width: 1350px;
+    background: url("../Pictures/Pictures-3/fur.jpg");
+    background-size: 100% 100%;
+}
+.divideword{
+    color: #FFFFFF;
+    font-size: 70px;
+    text-align: center;
+}
+.slide2{
+    width: 100%;
+    min-width: 1350px;
+    height: 550px;
+    background: url("../Pictures/Pictures-4/cream_background.jpg");
+    background-size: 100% 100%;
+}
+.window{
+    width: 70%;
+    height: 70%;
+    margin:0 auto;
+}
+.form1{
+    width: 100%;
+    min-width: 1350px;
+    height: 650px;
+    background: url("../Pictures/Pictures-5/contact_background.jpg");
+}
+.contact{
+    margin:0 auto;
+    width: 70%;
+    height: 80%;
+    overflow: hidden;
+}
+.conleft{
+    width: 45%;
+    height: 100%;
+    float: left;
+}
+.conright{
+    width: 55%;
+    height: 100%;
+    float:left;
+    background: url("../Pictures/Pictures-5/contact_form.png");
+    background-size: 100% 100%;
+    overflow: hidden;
+}
+.text{
+    width: 352px;
+    height: 248px;
+    background: url("../Pictures/Pictures-5/contact_text.png");
+    background-size: 100% 100%;
+    margin-left: 50px;
+}
+.contw{
+    margin-left: 10px;
+    color: #FFFFFF;
+    font-size: 30px;
+}
+strong{
+    position: relative;
+}
+.form2{
+    width: 100%;
+    height: 100%;
+}
+.n-e{
+    width: 96%;
+    height: 15%;
+}
+.form-left{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.formwords{
+    color: #FFFFFF;
+    position: relative;
+    top: 15px;
+    left: 15px;
+}
+.forminput{
+    border-radius: 5px;
+    position: relative;
+    top: 15px;
+    left: 15px;
+}
+.suggestions{
+    margin-top:4%;
+    height: 40%;
+}
+.inputsug{
+    position: relative;
+    top: 15px;
+    left: 15px;
+    width: 80%;
+    height: 160px;
+    border-radius: 5px;
+}
+.sbutton{
+    width: 160px;
+    height: 60px;
+    position: relative;
+    top: 10px;
+    left: 15px;
+}
+.abutton{
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: url("../Pictures/Pictures-5/button2.png");
+    background-size:100% 100%;
+}
